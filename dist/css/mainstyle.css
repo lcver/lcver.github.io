@@ -15,7 +15,18 @@ nav {
     width: 100%;
     max-height: 100vh;
 }
-
 #menu {
     top: 100vh;
 }
+#project-show{
+    /* background-color: #000000; */
+}
+
+#project-show .project-1 {
+    box-sizing: border-box;
+}
+
+#project-show .project-1 img {
+    width: 100%;
+}
+
