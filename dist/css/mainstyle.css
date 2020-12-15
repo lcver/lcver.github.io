@@ -1,13 +1,21 @@
+nav {
+    background-color: #000000;
+}
 #jumbotron {
     height: 100vh;
-    background-image: url("../../assets/img/background.jpg");
-    background-size: cover;
+    background-color: black;
     width: 100%;
 }
 #jumbotron-title {
-    bottom: 25%;
+    padding: 20px;
+    top: 35%;
     position: absolute;
 }
 #jumbotron img {
     width: 100%;
+    max-height: 100vh;
+}
+
+#menu {
+    top: 100vh;
 }
