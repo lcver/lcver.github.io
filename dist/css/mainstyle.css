@@ -1,32 +1,39 @@
-nav {
-    background-color: #000000;
-}
+.bg-black { background-color: #000000; color: white; }
+
+nav { background-color: #000000; }
+
 #jumbotron {
     height: 100vh;
     background-color: black;
     width: 100%;
 }
-#jumbotron-title {
-    padding: 20px;
-    top: 35%;
-    position: absolute;
-}
-#jumbotron img {
-    width: 100%;
-    max-height: 100vh;
-}
-#menu {
-    top: 100vh;
-}
+    #jumbotron-title {
+        padding: 20px;
+        top: 35%;
+        position: absolute;
+    }
+    #jumbotron img {
+        width: 100%;
+        max-height: 100vh;
+    }
+
+#menu { top: 100vh; }
+
 #project-show{
     /* background-color: #000000; */
 }
+    #project-show .project-item {
+        box-sizing: border-box;
+        height: 230px;
+    }
+    #project-show .project-item img {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
 
-#project-show .project-1 {
-    box-sizing: border-box;
-}
-
-#project-show .project-1 img {
+#myPhotos img{
     width: 100%;
+    height: 100%;
 }
-
