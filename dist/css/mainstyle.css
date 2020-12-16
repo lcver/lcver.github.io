@@ -33,7 +33,12 @@ nav { background-color: #000000; }
         height: 100%;
     }
 
+#myPhotos {
+    text-align: right;
+}
 #myPhotos img{
+    background-color: #000000;
+    border-radius: 100px 10px 10px 20px;
     width: 100%;
     height: 100%;
 }
