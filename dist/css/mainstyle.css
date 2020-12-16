@@ -36,9 +36,14 @@ nav { background-color: #000000; }
 #myPhotos {
     text-align: right;
 }
-#myPhotos img{
-    background-color: #000000;
-    border-radius: 100px 10px 10px 20px;
-    width: 100%;
-    height: 100%;
-}
+    #myPhotos img{
+        background-color: #000000;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+#mailMe { }
+    #mailMe textarea {
+        resize: none;
+    }
