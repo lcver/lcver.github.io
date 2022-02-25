@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAE8FA;
+}
+
+/* -- Start -- Navigation */
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation-brand {
+    color: #5A00EC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15;
+    flex: 1;
+}
+
+.navigation-menu {
+    margin-right: 50px;
+}
+
+.navigation-nav li{
+    display: inline-block;
+    /* background-color: cyan; */
+    padding: 5px 10px;
+}
+
+.navigation-nav li:hover a {
+    color: #5A00EC;
+}
+
+.navigation-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-button-sayhello {
+    background-color: #5A00EC;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* -- End -- Navigation */
+
+/* -- Start -- My Name Block */
+.myname-block {
+    height: 100vh;
+    width: 100%;
+    padding: 70px 50px 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-between;
+}
+
+.span-myname {
+    align-self: center;
+    max-width: 400px;
+    /* flex: 1; */
+}
+.span-myname p {
+    line-height: 80px;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+}
+
+.img-myprofile {
+    align-self: center;
+    /* background-color: cyan; */
+    /* flex: 1; */
+}
+
+.img-myprofile img {
+    width: 100%;
+}
+/* -- End -- My Name Block */
+
+/* -- Start -- Who I Am Block */
+.whoiam-block {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 25px 0 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.whoiam {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.whoiam-title {
+    border-top: 2px solid #5A00EC;
+    font-weight: bold;
+    font-size: 125px;
+    text-align: center;
+    line-height: 125px;
+    max-width: 300px;
+    margin-right: 50px;
+    flex: 1;
+}
+
+
+.whoiam-text {
+    position: relative;
+    white-space: pre-wrap;
+    margin: 0 30px;
+    padding-top: 50px;
+    max-width: 250px;
+    flex: 1;
+}
+
+.whoiam-text::before {
+    content: ' ';
+    top: 0;
+    border-top: 2px solid #5A00EC;
+    position: absolute;
+    max-width: 150px;
+    width: 100%;
+}
+
+.whoiam-img {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* width: 60%; */
+    max-width: 500px;
+}
+
+.whoiam-img img {
+    width: 100%;
+}
+
+.whoiam-text > p > .whoiam-subtitle {
+    font-weight: bold;
+}
+/* -- End -- Who I Am Block */
+
+
+/* -- Start -- What I Do Block */
+.whatido-block {
+    width: 100%;
+    height: 100vh;
+    padding: 150px 50px 50px 50px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.whatido-title {
+    font-size: 100px;
+    font-weight: bold;
+    border-top: 2px solid #5A00EC;
+    max-width: 300px;
+    flex: 1;
+}
+
+.whatido-list {
+    flex: 2;
+    max-width: 800px;
+    margin-left: 50px;
+}
+
+.whatido-list-item:first-child {
+    border-top: 2px solid #5A00EC;
+}
+
+.whatido-list-item {
+    list-style: none;
+    padding: 15px 20px;
+    border-top: 2px solid rgba(0,0,0, 0.2);
+    display: flex;
+}
+
+.whatido-list-item > .item-title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.whatido-list-item > .item-text {
+    font-size: 17px;
+    width: 60%;
+    word-wrap: break-word;
+}
+/* -- Start -- What I Do Block */
+
+/* -- Start -- What Skills I Have Block */
+.whatskillsihave-block {
+    padding: 50px 50px 0 50px;
+    box-sizing: border-box;
+    /* background-color: red; */
+    width: 100%;
+    display: block;
+}
+
+.whatskillsihave-title {
+    /* background-color: blue; */
+    position: absolute;
+    /* text-align: justify; */
+    font-size: 100px;
+    font-weight: bold;
+    max-width: 410px;
+    line-height: 80px;
+    /* display: none; */
+}
+
+.skills-list {
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.skill-item {
+    /* background-color: violet; */
+    /* width: 225px; */
+    position: relative;
+}
+
+.skill-item:first-child {
+    left: 460px;
+    width: 225px;
+}
+.skill-item:first-child .skill-logo{
+    margin-bottom: 20px;
+}
+
+.skill-item:nth-child(2) {
+    align-self: flex-end;
+    top: -50px;
+    display: flex;
+    right: 100px;
+}
+.skill-item:nth-child(2) .skill-logo {
+    margin-right: 20px;
+}
+.skill-item:nth-child(2) .skill-text {
+    margin-top: 75px;
+}
+
+.skill-item:nth-child(3) {
+    left: 460px;
+    top: -100px;
+    width: 225px;
+}
+.skill-item:nth-child(3) .skill-logo{
+    /* background-color: brown; */
+    position: relative;
+    left: -100px;
+}
+
+.skill-item:last-child {
+    align-self: flex-end;
+    top: -250px;
+    /* display: flex; */
+    right: 100px;
+}
+.skill-item:last-child .skill-logo{
+    position: relative;
+    left: -80px;
+}
+
+.skill-item span{
+    font-size: 20px;
+}
+
+.skill-logo {
+    max-width: 150px;
+}
+
+.skill-logo img {
+    width: 100%;
+}
+
+.skill-subtitle {
+    font-weight: bold;
+    max-width: 225px;
+    margin-bottom: 20px;
+}
+
+.skill-deskripsi {
+    /* background-color: blue; */
+    max-width: 225px;
+}
+/* -- End -- What Skills I Have Block */
+
+
+/* -- Start -- Say Hello Block */
+.sayforviewer-block {
+    /* background-color: cyan; */
+    width: 100%;
+    padding: 90px 50px 0 50px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.sayforviewer-title {
+    font-size: 100px;
+    /* background-color: blue; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sayforviewer-title span{
+    color: #5A00EC;
+}
+
+.sayforviewer-text p {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.sayforviewer-text p span {
+    color: #5A00EC;
+}
+
+.sayforviewer-contact-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5A00EC;
+    color: white;
+}
+
+
+
+
+.test {
+    background-color: #EAE8FA;
+}
+
+.text-primary{
+    color: black;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-secondary {
+    color: #5A00EC;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}

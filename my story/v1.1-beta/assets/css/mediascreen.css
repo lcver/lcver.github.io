@@ -1,0 +1,241 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /** Navigation */
+    .navigation-nav {
+        display: none;
+    }
+
+    /** My Name */
+    .myname-block {
+        flex-direction: column-reverse;
+        height: unset;
+    }
+
+    .span-myname {
+        margin-top: 20px;
+    }
+
+    .span-myname P{
+        font-size: 45px;
+        letter-spacing: -4px;
+        line-height: 50px;
+    }
+
+
+    /** Who I Am */
+    .whoiam-block {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .whoiam {
+        /* flex-direction: column; */
+        /* justify-self: center; */
+    }
+
+    .whoiam-title {
+        margin-right: unset;
+        justify-self: center;
+        /* max-width: unset; */
+        line-height: 70px;
+        font-size: 70px;
+        /* background-color: red; */
+    }
+
+    .whoiam-img {
+        margin-top: 50px;
+        /* display: none; */
+    }
+
+    /** What I Do */
+    .whatido-block {
+        height: unset;
+        flex-direction: column;
+        justify-content: center;
+        /* text-align: center; */
+    }
+
+    .whatido-title {
+        max-width: unset;
+        text-align: center;
+        font-size: 80;
+        /* background-color: red; */
+    }
+
+    .whatido-list {
+        /* background-color: red; */
+        /* max-width: 100px; */
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+
+    .whatido-list-item:first-child {
+        border-color: rgba(0,0,0, 0.2);
+    }
+
+    .whatido-list-item {
+        /* border: none; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatido-list-item {
+        /* border: none; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatido-list-item > .item-title {
+        width: 100%;
+        margin-bottom: 10px;
+        max-width: unset;
+    }
+    .whatido-list-item > .item-text {
+        width: 100%;
+        max-width: unset;
+    }
+
+    /** Skills I Have */
+    .whatskillsihave-title {
+        border-top: 2px solid #5A00EC;
+        /* background-color: cyan; */
+        font-size: 80px;
+        position: unset;
+        margin-bottom: 50px;
+    }
+
+    .skill-item {
+        position: unset;
+        margin-bottom: 50px;
+    }
+
+    .skill-item:first-child {
+        left: unset;
+        width: 225px;
+    }
+    
+    .skill-item:nth-child(2) {
+        align-self: flex-end;
+        display: flex;
+        right: 100px;
+        top: unset;
+    }
+    .skill-item:nth-child(2) .skill-logo {
+        margin-right: 20px;
+    }
+    .skill-item:nth-child(2) .skill-text {
+        margin-top: 75px;
+    }
+    
+    .skill-item:nth-child(3) {
+        /* background-color: cyan; */
+        left: unset;
+        top: unset;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .skill-item:nth-child(3) .skill-logo{
+        /* background-color: brown; */
+        position: unset;
+        left: unset;
+    }
+    .skill-item:nth-child(3) .skill-text{
+        /* background-color: brown; */
+        margin-top: 75px;
+        flex: 1;
+        text-align: justify;
+    }
+    
+    
+    .skill-item:last-child {
+        align-self: flex-end;
+        top: -250px;
+        /* display: flex; */
+        right: 100px;
+    }
+    .skill-item:last-child .skill-logo{
+        position: relative;
+        left: -80px;
+    }
+
+    /** Say Hello */
+    .sayforviewer-block {
+        padding: 90px 25px 0 25px;
+    }
+    
+    .sayforviewer-title {
+        font-size: 50px;
+    }
+    
+    .sayforviewer-text p {
+        font-size: 60px;
+    }
+
+    .sayforviewer-contact-button {
+        padding: 8px 15px;
+        font-size: 20px;
+    }
+
+
+
+  }
