@@ -77,30 +77,33 @@
   color: white;
 }
 
-.skills {
+.skill {
   /* background-color: #fff; */
   /* padding-bottom: 200px; */
   padding: 150px 0 200px 0;
 }
 
-.skills-caption h1 {
+.skill-caption h1 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
 }
 
-.skills .card {
+.skill-item {
+  /* max-width: 150px; */
+}
+
+.skill .card {
   background-color: white;
   /* max-width: 50%;
   margin-left: auto;
   margin-right: auto;
   position: relative; */
   height: 150px;
-  max-width: 150px;
   padding: 5px 0;
 }
 
-/* .skills .card::before {
+/* .skill .card::before {
   content: "";
   position: absolute;
   top: 0;
@@ -113,23 +116,57 @@
   transform: skew(10deg);
 } */
 
-.skills .card .card-img {
+.skill .card .card-img {
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10;
 }
-.skills .card .card-img img {
+.skill .card .card-img img {
   align-self: center;
   width: 100%;
   max-width: 100px;
 }
-.skills .card .card-body {
+.skill .card .card-body {
   text-align: center;
   z-index: 10;
 }
 
 .footer {
   padding: 200px 0;
+}
+
+/* phone only */
+@media (max-width: 599px) {
+  .profile .me h1 {
+    font-size: 50px;
+  }
+
+  .skill-list {
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-item {
+    width: 50%;
+  }
+  .skill-item .card {
+    max-width: 150px;
+  }
+}
+
+/* Tablet potrait up */
+@media (max-width: 600px) {
+}
+
+/* tablet lanscape up */
+@media (max-width: 900px) {
+}
+
+/* desktop up */
+@media (max-width: 1200px) {
+}
+
+/* big desktop up */
+@media (max-width: 1800px) {
 }
