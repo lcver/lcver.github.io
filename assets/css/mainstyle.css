@@ -1,0 +1,135 @@
+.profile {
+  padding-top: 150px;
+  height: 50vh;
+  background-color: #83ccfd;
+}
+
+.profile .me {
+  position: relative;
+}
+
+.profile .me h1 {
+  font-size: 80px;
+  font-weight: 700;
+  /* background-color: red; */
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.aboutme {
+  position: relative;
+  height: 100vh;
+  /* padding-bottom: 200px; */
+  /* display: flex;
+  align-items: center; */
+  /* padding-top: 50px; */
+  /* padding-bottom: 100px; */
+  /* background-color: green; */
+}
+
+.aboutme-svg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+.aboutme-caption {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px 50px;
+  top: 200px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  /* padding: 200px 0 0 0; */
+}
+
+.aboutme-caption h1.aboutme-title {
+  font-size: 30px;
+}
+
+.aboutme-caption p {
+  font-size: 17px;
+  /* width: 70%; */
+}
+
+.aboutme-caption p span {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.breaktime {
+  height: 70vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.breaktime-caption {
+  background-color: #4332c4;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+  color: white;
+}
+
+.skills {
+  /* background-color: #fff; */
+  /* padding-bottom: 200px; */
+  padding: 150px 0 200px 0;
+}
+
+.skills-caption h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.skills .card {
+  background-color: white;
+  /* max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; */
+  height: 150px;
+  max-width: 150px;
+  padding: 5px 0;
+}
+
+/* .skills .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 5;
+  transform: skew(10deg);
+} */
+
+.skills .card .card-img {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.skills .card .card-img img {
+  align-self: center;
+  width: 100%;
+  max-width: 100px;
+}
+.skills .card .card-body {
+  text-align: center;
+  z-index: 10;
+}
+
+.footer {
+  padding: 200px 0;
+}
