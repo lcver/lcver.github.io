@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <a class="navbar-brand" style="color: #4332c4; font-weight: 600" href="#">LAFF</a>
-        <button class="btn btn-sm btn-primary" style="background-color: #4332c4; border-radius: 15px">say hello</button>
+        <button id="sayHello" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#helloModal" style="background-color: #4332c4; border-radius: 15px; border: none; box-shadow: none;">say hello</button>
       </div>
     </nav>
     <!-- end navbar -->
@@ -313,12 +313,40 @@
 
     <!-- footer -->
     <section class="footer">
-      <center>
+      <!-- <center>
         <h1>Still working with this layout</h1>
         <p>lanjut ntar dulu, capek mikir script css ny sumpah</p>
-      </center>
+      </center> -->
+      <!-- Copyright -->
+      <div class="container">
+        <div class="col-md-12">
+          <div class="text-right">
+            <p class="m-0">&copy; 2021 - 2022 Lucky Adhitya</p>
+            <span class="font-weight-bolder">we fix, they running, don't touch it</span>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- end footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="helloModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">sabar dulu bro!!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ga usah say hello dulu sekarang, belom jadi soalny.
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
